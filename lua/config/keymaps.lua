@@ -46,6 +46,18 @@ bind('n', '<ESC>', '<CMD>noh<CR>', opts)
 bind('n', '<leader>0', '<CMD>tablast<CR>', opts)
 bind('n', '<leader>dd', ':%bdelete<CR>', opts)
 
+-- Switch to next buffer with Tab
+bind('n', '<Tab>', ':bnext<CR>', opts)
+
+-- Switch to previous buffer with Shift+Tab
+bind('n', '<S-Tab>', ':bprev<CR>', opts)
+
+-- Navigation in insert mode using control + h,j,k,l
+bind('i', '<C-h>', '<Left>', opts)
+bind('i', '<C-j>', '<Down>', opts)
+bind('i', '<C-k>', '<Up>', opts)
+bind('i', '<C-l>', '<Right>', opts)
+
 -- copy to system clipboard
 bind('n', '<C-c>', '"+y', opts)
 bind('n', '<C-h>', '<C-w>h', opts)
