@@ -136,6 +136,7 @@ function M.config()
         'denols',
         'pyright',
         'ts_ls',
+        'rust_analyzer',
     }
 
     for _, lsp in ipairs(servers) do

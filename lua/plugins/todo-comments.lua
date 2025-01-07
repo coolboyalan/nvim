@@ -4,6 +4,28 @@ local M = {
     dependencies = {
         'nvim-lua/plenary.nvim',
     },
+    keys = {
+        {
+            '<leader>ft', -- Keybinding
+            '<cmd>TodoTrouble<cr>', -- Command to show TODOs in Trouble
+            desc = 'Show TODOs in Trouble',
+        },
+        {
+            '<leader>st',
+            '<cmd>TodoTelescope<cr>', -- Command to show TODOs in Telescope
+            desc = 'Show TODOs in Telescope',
+        },
+        {
+            '<leader>lt',
+            '<cmd>TodoLocList<cr>', -- Command to show TODOs in Location List
+            desc = 'Show TODOs in Location List',
+        },
+        {
+            '<leader>qt',
+            '<cmd>TodoQuickFix<cr>', -- Command to show TODOs in Quickfix List
+            desc = 'Show TODOs in Quickfix List',
+        },
+    },
 }
 
 function M.config()

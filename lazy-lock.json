@@ -43,7 +43,11 @@
   "neogen": { "branch": "main", "commit": "dd0301bfba1f83a3bc009b5430fce7aa3cee6941" },
   "neotest": { "branch": "master", "commit": "d66cf4e05a116957f0d3a7755a24291c7d1e1f72" },
   "neotest-golang": { "branch": "main", "commit": "8aa4d82f1f1cf8852ec1cd96fb49e3c5a74e40fb" },
+<<<<<<< Updated upstream
   "nvim-cmp": { "branch": "main", "commit": "28ab7f7d05db70acd88b06bb5830ec40805d8d7c" },
+=======
+  "nvim-cmp": { "branch": "main", "commit": "8c82d0bd31299dbff7f8e780f5e06d2283de9678" },
+>>>>>>> Stashed changes
   "nvim-colorizer.lua": { "branch": "master", "commit": "a065833f35a3a7cc3ef137ac88b5381da2ba302e" },
   "nvim-cursorword": { "branch": "master", "commit": "c0f2958ec729b47be2dba0d79ef43d005dac9f4e" },
   "nvim-dap-ui": { "branch": "master", "commit": "a5606bc5958db86f8d92803bea7400ee26a8d7e4" },
@@ -57,15 +61,24 @@
   "nvim-surround": { "branch": "main", "commit": "9f0cb495f25bff32c936062d85046fbda0c43517" },
   "nvim-tree.lua": { "branch": "master", "commit": "68fc4c20f5803444277022c681785c5edd11916d" },
   "nvim-treesitter": { "branch": "master", "commit": "958af94dd8d74071c72c9d6840b41d06ea436b2f" },
+<<<<<<< Updated upstream
   "nvim-treesitter-context": { "branch": "master", "commit": "2bcf700b59bc92850ca83a1c02e86ba832e0fae0" },
+=======
+  "nvim-treesitter-context": { "branch": "master", "commit": "f1f106bac81c1ae5c971c52d3548d757fa4056b3" },
+>>>>>>> Stashed changes
   "nvim-treesitter-textobjects": { "branch": "master", "commit": "ad8f0a472148c3e0ae9851e26a722ee4e29b1595" },
   "nvim-ufo": { "branch": "main", "commit": "32cb247b893a384f1888b9cd737264159ecf183c" },
   "nvim-web-devicons": { "branch": "master", "commit": "5740b7382429d20b6ed0bbdb0694185af9507d44" },
   "plenary.nvim": { "branch": "master", "commit": "2d9b06177a975543726ce5c73fca176cedbffe9d" },
   "project.nvim": { "branch": "main", "commit": "8c6bad7d22eef1b71144b401c9f74ed01526a4fb" },
   "promise-async": { "branch": "main", "commit": "119e8961014c9bfaf1487bf3c2a393d254f337e2" },
+<<<<<<< Updated upstream
   "rainbow-delimiters.nvim": { "branch": "master", "commit": "8f7af53581302dc2b25cdfb67a45983a5a2c3f09" },
   "snacks.nvim": { "branch": "main", "commit": "ee08b1f32e06904318f8fa24714557d3abcdd215" },
+=======
+  "rainbow-delimiters.nvim": { "branch": "master", "commit": "63b2dde621d5a749080ae83d2df8b12caaca34d9" },
+  "snacks.nvim": { "branch": "main", "commit": "14e89401da348f5d14509fca164fb7bcec83e597" },
+>>>>>>> Stashed changes
   "suda.vim": { "branch": "master", "commit": "9adda7d195222d4e2854efb2a88005a120296c47" },
   "tagbar": { "branch": "master", "commit": "8de7694c0aeda253073098bbc9fb890b2902ddb8" },
   "telescope.nvim": { "branch": "master", "commit": "2eca9ba22002184ac05eddbe47a7fe2d5a384dfc" },
