@@ -235,7 +235,7 @@ function M.config()
             git_clean = false,
             no_buffer = false,
             custom = { 'node_modules', '.DS_Store', '.git', '.vscode', '.idea', '.conform' },
-            exclude = {},
+            exclude = { '.gitignore' },
         },
         filesystem_watchers = {
             enable = true,

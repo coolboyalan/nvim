@@ -52,7 +52,7 @@ function M.config()
     vim.cmd('autocmd! TermOpen term://* lua set_terminal_keymaps()')
 
     local lazygit = Terminal:new({
-        cmd = 'LANG=zh_CN.UTF-8 lazygit',
+        cmd = 'LANG=en.UTF-8 lazygit',
         dir = 'git_dir',
         direction = 'float',
         float_opts = {

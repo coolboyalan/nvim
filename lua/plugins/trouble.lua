@@ -1,6 +1,6 @@
 local M = {
     'folke/trouble.nvim',
-    ft = { 'lua', 'go' },
+    ft = { 'lua', 'go', 'javascript', 'rust' },
     event = 'VeryLazy',
     enabled = false,
     keys = {
@@ -11,8 +11,6 @@ local M = {
         },
         {
             '<leader>xx',
-            '<cmd>Trouble diagnostics toggle filter.buf=0<cr>',
-            desc = 'Buffer Diagnostics (Trouble)',
         },
         {
             '<leader>xs',
