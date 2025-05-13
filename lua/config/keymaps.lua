@@ -86,7 +86,7 @@ bind('n', '<S-Right>', '<cmd>vertical resize +5<CR>', opts)
 bind('n', '<S-Left>', '<cmd>vertical resize -5<CR>', opts)
 
 bind('n', '<space>', '/\\v', opts)
-bind('t', '<Esc>', '<C-\\><C-n>', opts)
+-- bind('t', '<Esc>', '<C-\\><C-n>', opts)
 
 -- tab quick swich
 bind('n', '<leader>th', '<CMD>tabfirst<CR>', opts)
