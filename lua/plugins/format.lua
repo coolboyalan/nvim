@@ -23,6 +23,8 @@ function M.config()
             go = { 'goimports', 'gofumpt' },
             -- Use a sub-list to run only the first available formatter
             javascript = { 'prettierd', 'prettier' },
+
+            rust = { 'rust_analyzer' },
             -- You can use a function here to determine the formatters dynamically
             python = function(bufnr)
                 if require('conform').get_formatter_info('ruff_format', bufnr).available then
