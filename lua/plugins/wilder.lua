@@ -1,27 +1,31 @@
 local M = {
     'gelguy/wilder.nvim',
-    build = ':UpdateRemotePlugins',
     event = 'VeryLazy',
+    dependencies = {
+        'romgrk/fzy-lua-native',
+        build = 'make',
+    },
 }
 
 function M.config()
     local wilder = require('wilder')
-    wilder.setup({ modes = { ':', '/\v', '?' } })
+    wilder.setup({ modes = { ':', '/', '?' } })
+
+    -- Disable Python remote plugin
+    wilder.set_option('use_python_remote_plugin', 0)
 
     wilder.set_option('pipeline', {
         wilder.branch(
             wilder.cmdline_pipeline({
                 fuzzy = 1,
-                set_pcre2_pattern = 1,
+                fuzzy_filter = wilder.lua_fzy_filter(),
             }),
-            wilder.python_search_pipeline({
-                pattern = 'fuzzy',
-            })
+            wilder.vim_search_pipeline()
         ),
     })
 
     local highlighters = {
-        wilder.pcre2_highlighter(),
+        wilder.lua_fzy_highlighter(),
         wilder.basic_highlighter(),
     }
 
@@ -43,9 +47,6 @@ function M.config()
 
     local wildmenu_renderer = wilder.wildmenu_renderer({
         highlighter = highlighters,
-        -- separator = ' · ',
-        -- left = { ' ', wilder.wildmenu_spinner(), ' ' },
-        -- right = { ' ', wilder.wildmenu_index() },
     })
 
     wilder.set_option(
