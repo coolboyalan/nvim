@@ -23,6 +23,9 @@ function M.config()
             go = { 'goimports', 'gofumpt' },
             -- Use a sub-list to run only the first available formatter
             javascript = { 'prettierd', 'prettier' },
+            javascriptreact = { 'prettierd', 'prettier' },
+            typescript = { 'prettierd', 'prettier' },
+            typescriptreact = { 'prettierd', 'prettier' },
 
             rust = { 'rust_analyzer' },
             -- You can use a function here to determine the formatters dynamically

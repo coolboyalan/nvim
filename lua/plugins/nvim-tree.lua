@@ -41,6 +41,7 @@ function M.config()
     vim.api.nvim_create_autocmd({ 'VimEnter' }, { callback = open_nvim_tree })
 
     vim.keymap.set('n', '<M-n>', '<Cmd>NvimTreeToggle<CR>')
+    vim.keymap.set('n', '<leader>e', '<Cmd>NvimTreeToggle<CR>')
 
     -- Silently open a new tab
     local function open_tab_silent(node)
