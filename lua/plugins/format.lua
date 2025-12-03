@@ -36,7 +36,7 @@ function M.config()
                     return { 'isort', 'black' }
                 end
             end,
-            json = { 'jq' },
+            json = { 'jq', 'prettierd', 'prettier' },
             -- Use the "*" filetype to run formatters on all filetypes.
             ['*'] = { 'codespell' },
             -- Use the "_" filetype to run formatters on filetypes that don't
